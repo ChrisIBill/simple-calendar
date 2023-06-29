@@ -2,7 +2,7 @@ export default function Home() {
     return (
         <div>
             <p>
-               Calendar Page
+               User Page
             </p>
         </div>
     )
