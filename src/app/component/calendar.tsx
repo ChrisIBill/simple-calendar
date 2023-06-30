@@ -1,3 +1,4 @@
+'use client';
 import { Calendar, dayjsLocalizer } from "react-big-calendar";
 import dayjs from "dayjs";
 import { Box, Container, Paper } from "@mui/material";
@@ -6,8 +7,9 @@ const localizer = dayjsLocalizer(dayjs);
 interface CalendarProps {
     events: any;
 }
-export default const CalendarComponent = (props: CalendarProps) => {
+export const CalendarComponent = (props: CalendarProps) => {
     return (
+        
         <div>
             <Calendar
                 localizer={localizer}
